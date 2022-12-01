@@ -18,7 +18,7 @@ datos = book.active
 
 
 
-population = {} #población
-for fila in range(2,111):
-        upz = sheet.cell(fila,14).value
-        population[upz]= sheet.cell(fila,7).value
+demanda = {} #demanda
+for fila in range(6,12):
+        indice = sheet.cell(fila,14).value
+        vector[upz]= sheet.cell(fila,7).value
